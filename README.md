@@ -80,7 +80,7 @@ Results obtained for various imputation methods on the ETH-M, HOTEL-M, UNIV-M, Z
 
 We report the ADE/FDE for the trajectory prediction task on the clean, soft imputed, and hard imputed protocols. `Clean' refers to a subset with no missing coordinates. Performance degradation occurs when trajectory prediction is performed on the hard imputed subsets. The Trajectory Prediction baseline model file can be download at [**Download Link**](https://drive.google.com/drive/folders/16A3yo-FKzuBmMbr3eRYgiQCJ4inaSf1j?usp=sharing).
 
-| Datasets | Baselines       | GraphTern | LBEBM-ET  | SGCN-ET  | EQmotion  | TUTR     | GPGraph   |
+| Datasets | Baselines       | [**GraphTern**](https://github.com/InhwanBae/GPGraph) | [**LBEBM-ET**](https://github.com/InhwanBae/EigenTrajectory)  | [**SGCN-ET**](https://github.com/InhwanBae/EigenTrajectory)  | [**EQmotion**](https://github.com/MediaBrain-SJTU/EqMotion)  | [**TUTR**](https://github.com/lssiair/TUTR)     | [**GPGraph**](https://github.com/InhwanBae/GPGraph)   |
 |----------|-----------------|-----------|-----------|----------|-----------|----------|-----------|
 | ETH      | Clean           | 0.42/0.58 | 0.36/0.53 | 0.36/0.57| 0.40/0.61 | 0.40/0.61| 0.43/0.63 |
 |          | Easy-impute     | 0.77/0.74 | 0.37/0.55 | 0.42/0.71| 0.46/0.62 | 0.54/0.73| 0.45/0.75 |
