@@ -17,6 +17,12 @@
 <img src="/TrajImpute.png" width="450" height="500"/>
 <p><br>
 
+We use the same Dataloader for pedestrian trajectory generation as prior methods (referred from Social-GAN at https://github.com/agrimgupta92/sgan/blob/master/sgan/data/trajectories.py). Upon this data, we generate the missing observed trajectories. The missing value generation code is provided in <tt>data_generation.py</tt>.
+
+```bash
+python generate_data.py <data_test_file_path> <data_train_file_path> <data_val_file_path> <save_file_path>
+```
+
 ***
   # <p align=center> `Trajectory Imputataion Benchmarking` <br>
 
