@@ -9,8 +9,13 @@
 - [Trajectory Prediction Benchmarking](#Language-Guided-Network)
 
   # <p align=center> `TrajImpute Dataset`<br>
-  The dataset can be downloaded from [**Download Link**](https://drive.google.com/drive/folders/1xUDlub7cqeXi2Or-npOALntueb7q9EHe?usp=sharing).
+  The dataset can be downloaded from [**Download Link**](https://drive.google.com/drive/folders/).
 
   ## Datasets
 The structure of the TrajImpute dataset follows a dictionary format with specific keys:
+
+<p align="center">
+<img src="/TrajImpute.png" width="1000" height="450"/>
+<p>
+
 
