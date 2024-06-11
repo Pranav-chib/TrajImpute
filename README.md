@@ -11,7 +11,7 @@
 ***
 
   # <p align=center> `TrajImpute Dataset`<br>
-  The dataset can be downloaded from [**Download Link**](https://drive.google.com/drive/folders/). The structure of the TrajImpute dataset follows a dictionary format with specific keys:
+  The dataset can be downloaded from [**Download Link**](https://drive.google.com/drive/folders/1AoKeBmJQPEiUAmAn4qpefRMc89XxHgRL?usp=sharing). The structure of the TrajImpute dataset follows a dictionary format with specific keys:
 
 <p align="center">
 <img src="/TrajImpute.png" width="450" height="500"/>
@@ -22,7 +22,7 @@
 
   ## Results for Various Imputation Methods on Different Datasets
 
-Results obtained for various imputation methods on the ETH-M, HOTEL-M, UNIV-M, ZARA1-M, and ZARA2-M subsets of TrajImpute with the easy protocol ($0 \leq \text{missing} \leq 4$) and the hard protocol ($4 \leq \text{missing} \leq 7$). The reported results show that SITES performs relatively better when imputing missing values. `M' refers to missing, indicating that the subset contains missing observed coordinates.
+Results obtained for various imputation methods on the ETH-M, HOTEL-M, UNIV-M, ZARA1-M, and ZARA2-M subsets of TrajImpute with the easy protocol ($0 \leq \text{missing} \leq 4$) and the hard protocol ($4 \leq \text{missing} \leq 7$). The reported results show that SITES performs relatively better when imputing missing values. `M' refers to missing, indicating that the subset contains missing observed coordinates. The Imputation model file can be download at [**Download Link**](https://drive.google.com/drive/folders/16A3yo-FKzuBmMbr3eRYgiQCJ4inaSf1j?usp=sharing).
 
 | Datasets | Methods         | Metrics | Transformer | US-GAN | BRITS  | M-RNN  | TimesNet | SAITS  |
 |----------|-----------------|---------|-------------|--------|--------|--------|----------|--------|
@@ -78,7 +78,7 @@ Results obtained for various imputation methods on the ETH-M, HOTEL-M, UNIV-M, Z
 
   ## Results obtained for various trajectory prediction methods on the imputed subsets of TrajImpute
 
-We report the ADE/FDE for the trajectory prediction task on the clean, soft imputed, and hard imputed protocols. `Clean' refers to a subset with no missing coordinates. Performance degradation occurs when trajectory prediction is performed on the hard imputed subsets.
+We report the ADE/FDE for the trajectory prediction task on the clean, soft imputed, and hard imputed protocols. `Clean' refers to a subset with no missing coordinates. Performance degradation occurs when trajectory prediction is performed on the hard imputed subsets. The Trajectory Prediction baseline model file can be download at [**Download Link**](https://drive.google.com/drive/folders/16A3yo-FKzuBmMbr3eRYgiQCJ4inaSf1j?usp=sharing).
 
 | Datasets | Baselines       | GraphTern | LBEBM-ET  | SGCN-ET  | EQmotion  | TUTR     | GPGraph   |
 |----------|-----------------|-----------|-----------|----------|-----------|----------|-----------|
