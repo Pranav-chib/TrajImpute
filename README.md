@@ -15,7 +15,7 @@
 The structure of the TrajImpute dataset follows a dictionary format with specific keys:
 
 <p align="center">
-<img src="/TrajImpute.png" width="1000" height="450"/>
+<img src="/TrajImpute.png" width="450" height="400"/>
 <p>
 
 
