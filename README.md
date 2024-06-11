@@ -24,7 +24,7 @@
 
 Results obtained for various imputation methods on the ETH-M, HOTEL-M, UNIV-M, ZARA1-M, and ZARA2-M subsets of TrajImpute with the easy protocol ($0 \leq \text{missing} \leq 4$) and the hard protocol ($4 \leq \text{missing} \leq 7$). The reported results show that SITES performs relatively better when imputing missing values. `M' refers to missing, indicating that the subset contains missing observed coordinates. The Imputation model file can be download at [**Download Link**](https://drive.google.com/drive/folders/16A3yo-FKzuBmMbr3eRYgiQCJ4inaSf1j?usp=sharing).
 
-| Datasets | Methods         | Metrics | Transformer | US-GAN | BRITS  | M-RNN  | TimesNet | SAITS  |
+| Datasets | Methods         | Metrics | [**Transformer**](https://github.com/jadore801120/attention-is-all-you-need-pytorch) | [**US-GAN**](https://github.com/zjuwuyy-DL/Generative-Semi-supervised-Learning-for-Multivariate-Time-Series-Imputation) | [**BRITS**](https://github.com/caow13/BRITS)  | [**M-RNN**](https://github.com/jsyoon0823/MRNN)  | [**TimesNet**](https://github.com/thuml/TimesNet) | [**SAITS**](https://github.com/WenjieDu/SAITS/tree/main)  |
 |----------|-----------------|---------|-------------|--------|--------|--------|----------|--------|
 | ETH-M    | Easy-impute     | MAE     | 3.1318      | 0.6467 | 1.4287 | 5.2558 | 1.1353   | 0.5031 |
 |          |                 | MSE     | 19.4576     | 1.8055 | 4.7339 | 35.3738| 4.9441   | 0.9909 |
