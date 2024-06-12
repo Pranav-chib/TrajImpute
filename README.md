@@ -34,7 +34,7 @@ Results obtained for various imputation methods on the ETH-M, HOTEL-M, UNIV-M, Z
 - Code for the TimesNet [[Code](https://github.com/thuml/TimesNet)]
 - Code for the SAITS [[Code](https://github.com/WenjieDu/SAITS/tree/main)]
 
-| Datasets | Methods         | Metrics | [**Transformer**](https://github.com/jadore801120/attention-is-all-you-need-pytorch) | [**US-GAN**](https://github.com/zjuwuyy-DL/Generative-Semi-supervised-Learning-for-Multivariate-Time-Series-Imputation) | [**BRITS**](https://github.com/caow13/BRITS)  | [**M-RNN**](https://github.com/jsyoon0823/MRNN)  | [**TimesNet**](https://github.com/thuml/TimesNet) | [**SAITS**](https://github.com/WenjieDu/SAITS/tree/main)  |
+| Datasets | Methods         | Metrics | [**Transformer**]( https://papers.nips.cc/paper/2017/hash/3f5ee243547dee91fbd053c1c4a845aa-Abstract.html) | [**US-GAN**]( https://ojs.aaai.org/index.php/AAAI/article/view/17086) | [**BRITS**]( https://papers.nips.cc/paper/2018/hash/734e6bfcd358e25ac1db0a4241b95651-Abstract.html)  | [**M-RNN**]( https://ieeexplore.ieee.org/document/8485748)  | [**TimesNet**]( https://openreview.net/forum?id=ju_Uqw384Oq) | [**SAITS**](https://www.sciencedirect.com/science/article/pii/S0957417423001203?via%3Dihub)  |
 |----------|-----------------|---------|-------------|--------|--------|--------|----------|--------|
 | ETH-M    | Easy-impute     | MAE     | 3.1318      | 0.6467 | 1.4287 | 5.2558 | 1.1353   | 0.5031 |
 |          |                 | MSE     | 19.4576     | 1.8055 | 4.7339 | 35.3738| 4.9441   | 0.9909 |
@@ -97,7 +97,7 @@ We report the ADE/FDE for the trajectory prediction task on the clean, soft impu
 - Code for the TUTR [[Code]( https://github.com/lssiair/TUTR)]
 - Code for the GPGraph [[Code](https://github.com/InhwanBae/GPGraph)]
 
-| Datasets | Baselines       | [**GraphTern**](https://github.com/InhwanBae/GPGraph) | [**LBEBM-ET**](https://github.com/InhwanBae/EigenTrajectory)  | [**SGCN-ET**](https://github.com/InhwanBae/EigenTrajectory)  | [**EQmotion**](https://github.com/MediaBrain-SJTU/EqMotion)  | [**TUTR**](https://github.com/lssiair/TUTR)     | [**GPGraph**](https://github.com/InhwanBae/GPGraph)   |
+| Datasets | Baselines       | [**GraphTern**]( https://ojs.aaai.org/index.php/AAAI/article/view/25759) | [**LBEBM-ET**](https://arxiv.org/abs/2307.09306)  | [**SGCN-ET**](https://arxiv.org/abs/2307.09306)  | [**EQmotion**]( https://arxiv.org/abs/2303.10876)  | [**TUTR**](https://openaccess.thecvf.com/content/ICCV2023/papers/Shi_Trajectory_Unified_Transformer_for_Pedestrian_Trajectory_Prediction_ICCV_2023_paper.pdf)     | [**GPGraph**](https://arxiv.org/abs/2207.09953)   |
 |----------|-----------------|-----------|-----------|----------|-----------|----------|-----------|
 | ETH      | Clean           | 0.42/0.58 | 0.36/0.53 | 0.36/0.57| 0.40/0.61 | 0.40/0.61| 0.43/0.63 |
 |          | Easy-impute     | 0.77/0.74 | 0.37/0.55 | 0.42/0.71| 0.46/0.62 | 0.54/0.73| 0.45/0.75 |
