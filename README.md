@@ -11,11 +11,8 @@
 ***
 
   # <p align=center> `TrajImpute Dataset`<br>
-  The dataset can be downloaded from [**Download Link**](https://drive.google.com/drive/folders/1AoKeBmJQPEiUAmAn4qpefRMc89XxHgRL?usp=sharing). The structure of the TrajImpute dataset follows a dictionary format with specific keys:
+  The dataset can be downloaded from [**Download Link**](https://drive.google.com/drive/folders/1AoKeBmJQPEiUAmAn4qpefRMc89XxHgRL?usp=sharing). The structure of the TrajImpute dataset follows a dictionary format with specific keys as shown in /TrajImpute.png:
 
-<p align="center">
-<img src="/TrajImpute.png" width="450" height="500"/>
-<p><br>
 
 We use the same Dataloader for pedestrian trajectory generation as prior methods (referred from Social-GAN at https://github.com/agrimgupta92/sgan/blob/master/sgan/data/trajectories.py). Upon this data, we generate the missing observed trajectories. The missing value generation code is provided in <tt>data_generation.py</tt>.
 
@@ -28,7 +25,14 @@ python generate_data.py <data_test_file_path> <data_train_file_path> <data_val_f
 
   ## Results for Various Imputation Methods on Different Datasets
 
-Results obtained for various imputation methods on the ETH-M, HOTEL-M, UNIV-M, ZARA1-M, and ZARA2-M subsets of TrajImpute with the easy protocol ($0 \leq \text{missing} \leq 4$) and the hard protocol ($4 \leq \text{missing} \leq 7$). The reported results show that SITES performs relatively better when imputing missing values. `M' refers to missing, indicating that the subset contains missing observed coordinates. The Imputation model file can be download at [**Download Link**](https://drive.google.com/drive/folders/16A3yo-FKzuBmMbr3eRYgiQCJ4inaSf1j?usp=sharing).
+Results obtained for various imputation methods on the ETH-M, HOTEL-M, UNIV-M, ZARA1-M, and ZARA2-M subsets of TrajImpute with the easy protocol ($0 \leq \text{missing} \leq 4$) and the hard protocol ($4 \leq \text{missing} \leq 7$). The reported results show that SITES performs relatively better when imputing missing values. `M' refers to missing, indicating that the subset contains missing observed coordinates. 
+
+- Code for the Transformer [[Code](https://github.com/jadore801120/attention-is-all-you-need-pytorch) .]
+- Code for the US-GAN [[Code](https://github.com/zjuwuyy-DL/Generative-Semi-supervised-Learning-for-Multivariate-Time-Series-Imputation)]
+- Code for the BRITS [[Code](https://github.com/caow13/BRITS)]
+- Code for the M-RNN [[Code](https://github.com/jsyoon0823/MRNN)]
+- Code for the TimesNet [[Code](https://github.com/thuml/TimesNet)]
+- Code for the SAITS [[Code](https://github.com/WenjieDu/SAITS/tree/main)]
 
 | Datasets | Methods         | Metrics | [**Transformer**](https://github.com/jadore801120/attention-is-all-you-need-pytorch) | [**US-GAN**](https://github.com/zjuwuyy-DL/Generative-Semi-supervised-Learning-for-Multivariate-Time-Series-Imputation) | [**BRITS**](https://github.com/caow13/BRITS)  | [**M-RNN**](https://github.com/jsyoon0823/MRNN)  | [**TimesNet**](https://github.com/thuml/TimesNet) | [**SAITS**](https://github.com/WenjieDu/SAITS/tree/main)  |
 |----------|-----------------|---------|-------------|--------|--------|--------|----------|--------|
@@ -84,7 +88,14 @@ Results obtained for various imputation methods on the ETH-M, HOTEL-M, UNIV-M, Z
 
   ## Results obtained for various trajectory prediction methods on the imputed subsets of TrajImpute
 
-We report the ADE/FDE for the trajectory prediction task on the clean, soft imputed, and hard imputed protocols. `Clean' refers to a subset with no missing coordinates. Performance degradation occurs when trajectory prediction is performed on the hard imputed subsets. The Trajectory Prediction baseline model file can be download at [**Download Link**](https://drive.google.com/drive/folders/16A3yo-FKzuBmMbr3eRYgiQCJ4inaSf1j?usp=sharing).
+We report the ADE/FDE for the trajectory prediction task on the clean, soft imputed, and hard imputed protocols. `Clean' refers to a subset with no missing coordinates. Performance degradation occurs when trajectory prediction is performed on the hard imputed subsets. 
+
+- Code for the GraphTern [[Code](https://github.com/InhwanBae/GPGraph)]
+- Code for the LBEBM-ET [[Code](https://github.com/InhwanBae/EigenTrajectory)]
+- Code for the SGCN-ET [[Code]( https://github.com/InhwanBae/EigenTrajectory)]
+- Code for the EQmotion [[Code](https://github.com/MediaBrain-SJTU/EqMotion)]
+- Code for the TUTR [[Code]( https://github.com/lssiair/TUTR)]
+- Code for the GPGraph [[Code](https://github.com/InhwanBae/GPGraph)]
 
 | Datasets | Baselines       | [**GraphTern**](https://github.com/InhwanBae/GPGraph) | [**LBEBM-ET**](https://github.com/InhwanBae/EigenTrajectory)  | [**SGCN-ET**](https://github.com/InhwanBae/EigenTrajectory)  | [**EQmotion**](https://github.com/MediaBrain-SJTU/EqMotion)  | [**TUTR**](https://github.com/lssiair/TUTR)     | [**GPGraph**](https://github.com/InhwanBae/GPGraph)   |
 |----------|-----------------|-----------|-----------|----------|-----------|----------|-----------|
