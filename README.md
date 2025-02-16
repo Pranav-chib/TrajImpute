@@ -119,3 +119,21 @@ We report the ADE/FDE for the trajectory prediction task on the clean, soft impu
 |          | Easy-impute     | 0.18/0.30 | 0.16/0.27 | 0.17/0.29| 0.36/0.54 | 0.25/0.37| 0.29/0.30 |
 |          | Hard-impute     | 0.37/0.44 | 0.27/0.43 | 0.41/0.63| 0.37/0.55 | 0.33/0.50| 0.36/0.34 |
 
+
+
+
+<hr />
+
+# Citation
+
+If you find TrajImpute useful for your work, please cite our paper.
+
+```
+@article{chib2025pedestrian,
+  title={Pedestrian Trajectory Prediction with Missing Data: Datasets, Imputation, and Benchmarking},
+  author={Chib, Pranav Singh and Singh, Pravendra},
+  journal={Advances in Neural Information Processing Systems},
+  volume={37},
+  pages={124530--124546},
+  year={2025}
+}
